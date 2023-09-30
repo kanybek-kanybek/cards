@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Mulish', sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.card__img-wrap {
+    flex: 1;
+    
+}
+.card-info{
+    flex: 1;
+    background: #0A223D;
+   
+
+}
+.card-info img{
+   margin-left: 46px;
+}
+.card-info h4{
+    color: #FFF;
+    font-size: 18px;
+    font-family: Mulish;
+    margin-left: 46px;
+    margin-bottom: 15px;
+}
+.card-info p{
+    color:#FFF ;
+    font-size: 14px;
+    font-family: Mulish;
+    margin-left: 46px;
+}
+.card-info-icons{
+    color: #FFF;
+    margin-top: 40px;
+    margin-left: 46px;
+}
+.card-info-icons :nth-child(2){
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+.card-info-footer{
+    color: #FFF;
+    margin-top: 40px;
+}
+.card-info-footer h2{
+    font-family: Mulish;
+    font-size: 14px;
+    margin-left: 46px;
+}
+.card-info-footer h1{
+    font-family: Mulish;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 46px;
+}
+.card-info-footer button{
+    background: #EC1F46;
+    border: none;
+    border-radius: 2px;
+    width: 120px;
+    height: 40px;
+    flex-shrink: 0;
+    
+    
+}
+.card-info-footer-bt{
+    display: flex;
+    gap: 100px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 500px;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+.card{
+    columns: 1;
+    width: 100%;
+    height: 100%;
+    background:red;
+}
+.big-card{
+
+    display: flex;
+    grid-column: 1/3;
+    
+}
+.cardinfo img{
+    display: flex;
+}
+.card__img-wrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.card__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card__btn{
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
